@@ -1,0 +1,31 @@
+@page "/"
+@inject RestaurantApp.Services.RestaurantService RestaurantService
+
+<h3>Restaurant Dashboard</h3>
+
+<a href="/add">Add New Restaurant</a>
+
+<ul>
+    @foreach (var restaurant in restaurants)
+    {
+        <li>
+            <b>@restaurant.Name</b> - @restaurant.Location - @restaurant.Cuisine
+            <button @onclick="() => DeleteRestaurant(restaurant.Id)">Delete</button>
+        </li>
+    }
+</ul>
+
+@code {
+    private List<RestaurantApp.Models.Restaurant> restaurants = new();
+
+    protected override void OnInitialized()
+    {
+        restaurants = RestaurantService.GetAll();
+    }
+
+    void DeleteRestaurant(int id)
+    {
+        RestaurantService.Delete(id);
+        restaurants = RestaurantService.GetAll();
+    }
+}

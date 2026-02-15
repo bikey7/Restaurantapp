@@ -1,0 +1,8 @@
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\RestaurantApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\RestaurantApp.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\RestaurantApp.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\RestaurantApp\RestaurantApp\obj\Debug\net10.0\RestaurantApp.MvcApplicationPartsAssemblyInfo.cache

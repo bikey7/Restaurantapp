@@ -1,0 +1,23 @@
+@page "/add"
+@inject RestaurantApp.Services.RestaurantService RestaurantService
+@inject NavigationManager Navigation
+
+<h3>Add Restaurant</h3>
+
+<input placeholder="Name" @bind="restaurant.Name" />
+<br />
+<input placeholder="Location" @bind="restaurant.Location" />
+<br />
+<input placeholder="Cuisine" @bind="restaurant.Cuisine" />
+<br />
+<button @onclick="AddRestaurant">Add</button>
+
+@code {
+    private RestaurantApp.Models.Restaurant restaurant = new();
+
+    void AddRestaurant()
+    {
+        RestaurantService.Add(restaurant);
+        Navigation.NavigateTo("/");
+    }
+}
